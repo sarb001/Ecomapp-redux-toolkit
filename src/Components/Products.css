@@ -1,0 +1,32 @@
+.productwrapper
+{
+
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     row-gap: 50px;
+}
+.card{
+    width: 50%;
+    height: 30vh;
+    background-color: brown;
+}
+.card > img 
+{
+    width: 30%;
+    padding-top: 5%;
+}
+span {
+    text-align: center;
+}
+.btn 
+{
+    cursor: pointer;
+    color: black;
+    font-size: 17px;
+    background-color: whitesmoke;
+}
+.btn:hover
+{
+    background-color: bisque;
+}
